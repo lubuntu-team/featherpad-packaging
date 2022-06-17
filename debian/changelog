@@ -1,0 +1,118 @@
+featherpad (1.0.1-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload
+  * New upstream release (Closes: #998188).
+
+ -- S. 7 <severusseptimius7@gmail.com>  Sat, 30 Oct 2021 05:19:55 -0400
+
+featherpad (0.17.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 20:24:10 +0800
+
+featherpad (0.12.1-1) unstable; urgency=medium
+
+  * New upstream version 0.12.1
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 18 Jan 2020 15:39:49 +0100
+
+featherpad (0.12.0-1) unstable; urgency=medium
+
+  * New upstream version 0.12.0
+  * Switched to gbp
+  * Bumped Standards to 4.4.1, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 07 Jan 2020 04:40:18 +0100
+
+featherpad (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.11.1.
+  * Added build dependency libhunspell-dev
+  * Bumped Standards-Version to 4.4.0, no changes needed
+  * Split package into featherpad and featherpad-l10n (Closes: #910769)
+  * Removed 291-support-hurd.patch to fix FTBFS on the Hurd, applied upstream.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Aug 2019 22:26:00 +0200
+
+featherpad (0.10.0-3) unstable; urgency=medium
+
+  * Added 291-support-hurd.patch to fix FTBFS on the Hurd.
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 19 Jul 2019 22:12:02 +0200
+
+featherpad (0.10.0-2) unstable; urgency=medium
+
+  * Switch to unstable - freeze is over.
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 10 Jul 2019 22:00:21 +0200
+
+featherpad (0.10.0-1) experimental; urgency=medium
+
+  * Cherry-picked upstream release V0.10.0.
+  * Switched to experimental
+  * Upstream fixed copying content from featherpad
+    (Closes: #927403)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 18 May 2019 01:07:12 +0200
+
+featherpad (0.9.4-2) unstable; urgency=medium
+
+  * Added recommendation qttranslations5-l10n
+    (Closes: #923687)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 03 Mar 2019 22:22:03 +0100
+
+featherpad (0.9.4-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.9.4.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Feb 2019 03:11:44 +0100
+
+featherpad (0.9.3-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.9.3.
+  * Bumped copyright years
+  * Replaced compat and debhelper with debhelper-compat (>=12)
+  * Removed the featherpad-l10n recommendation, the package is
+    not splitted yet
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 06 Feb 2019 00:08:52 +0100
+
+featherpad (0.9.2-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.9.2.
+  * Bumped Standards-Version to 4.3.0, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 31 Dec 2018 16:59:00 +0100
+
+featherpad (0.9.1-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.9.1.
+  * Bumped Standards-Version to 4.2.1, no changes needed
+  * Added debian/clean
+  * Added debian/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 11 Oct 2018 00:40:45 +0200
+
+featherpad (0.9.0-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.9.0.
+  * Bumped Standards-Version to 4.1.4, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 May 2018 23:18:29 +0200
+
+featherpad (0.8-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.8.
+  * Relaxed dh version and make it backport friendly
+  * Fixed not canonical VCS link
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 30 Mar 2018 18:10:37 +0200
+
+featherpad (0.7-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release V0.7.
+  * Initial release. (Closes: #869730)
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 18 Jan 2018 17:21:10 +0100

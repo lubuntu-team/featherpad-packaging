@@ -1,0 +1,61 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: featherpad
+Source: https://github.com/tsujan/featherpad
+
+Files: *
+Copyright: 2014-2021, Pedram Pourang (aka Tsu Jan) <tsujan2000@gmail.com>
+License: GPL-3.0+
+
+Files: featherpad/encoding.cpp
+Copyright: 2014, Pedram Pourang (aka Tsu Jan) <tsujan2000@gmail.com>
+           2004-2005, Tarot Osuji
+License: GPL-2.0+
+
+Files: debian/*
+Copyright: 2017-2019, Alf Gaida <agaida@siduction.org>
+           2021, S. 7 <severusseptimius7@gmail.com>
+License: GPL-3.0+
+
+Files: featherpad/data/featherpad.metainfo.xml
+Copyright: 2021, Balló György <https://github.com/City-busz>
+License: CC0-1.0
+
+License: GPL-2.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: CC0-1.0
+ This file is under public domain.
+ .
+ On Debian systems, the complete text of the Creative Commons CC0 1.0 can be
+ found in "/usr/share/common-licenses/CC0-1.0".

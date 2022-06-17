@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/V?(\d\S+)\.tar\.gz/featherpad-$1\.tar\.gz/ \
+  https://github.com/tsujan/featherpad/tags .*/V?(\d\S+)\.tar\.gz
