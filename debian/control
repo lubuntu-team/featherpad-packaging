@@ -4,18 +4,17 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: editors
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: cmake,
+               debhelper-compat (= 13),
                libhunspell-dev,
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev,
                libxext-dev,
-               cmake,
+               pkgconf,
                qtbase5-dev,
                qttools5-dev,
-               qttools5-dev-tools,
-               libhunspell-dev,
-               pkgconf
+               qttools5-dev-tools
 Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/lxqt-team/featherpad
 Vcs-Git: https://salsa.debian.org/lxqt-team/featherpad.git
