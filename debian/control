@@ -14,7 +14,7 @@ Build-Depends: debhelper-compat (= 13),
                qtbase5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/lxqt-team/featherpad
 Vcs-Git: https://salsa.debian.org/lxqt-team/featherpad.git
 Homepage: https://github.com/tsujan/featherpad
