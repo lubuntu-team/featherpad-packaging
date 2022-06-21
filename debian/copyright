@@ -3,7 +3,7 @@ Upstream-Name: featherpad
 Source: https://github.com/tsujan/featherpad
 
 Files: *
-Copyright: 2014-2021, Pedram Pourang (aka Tsu Jan) <tsujan2000@gmail.com>
+Copyright: 2014-2022, Pedram Pourang (aka Tsu Jan) <tsujan2000@gmail.com>
 License: GPL-3.0+
 
 Files: featherpad/encoding.cpp
