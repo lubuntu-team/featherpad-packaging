@@ -7,6 +7,7 @@ featherpad (1.3.0-0ubuntu1) kinetic; urgency=medium
   * Fixed featherpad-l10n.install.
   * Added libhunspell-dev and pkgconf as build dependencies.
   * Run wrap-and-sort.
+  * Updated debian/watch file version.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 21 Jun 2022 14:05:07 -0500
 
