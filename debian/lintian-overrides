@@ -1,1 +1,2 @@
-featherpad: no-manual-page *
+featherpad: no-manual-page usr/bin/featherpad
+featherpad: no-manual-page usr/bin/fpad
