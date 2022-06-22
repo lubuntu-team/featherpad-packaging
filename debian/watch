@@ -1,3 +1,4 @@
 version=4
-opts=filenamemangle=s/.+\/V?(\d\S+)\.tar\.gz/featherpad-$1\.tar\.gz/ \
-  https://github.com/tsujan/featherpad/tags .*/V?(\d\S+)\.tar\.gz
+opts="pgpsigurlmangle=s/$/.asc/, \
+filenamemangle=s/.+\/FeatherPad-(\d\S+)\.tar\.xz/featherpad-$1\.tar\.xz/" \
+  https://github.com/tsujan/featherpad/releases .*\/FeatherPad-(\d\S+)\.tar\.xz
