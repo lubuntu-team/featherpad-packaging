@@ -1,4 +1,5 @@
 version=4
-opts="pgpsigurlmangle=s/$/.asc/, \
-filenamemangle=s/.+\/FeatherPad-(\d\S+)\.tar\.xz/featherpad-$1\.tar\.xz/" \
-  https://github.com/tsujan/featherpad/releases .*\/FeatherPad-(\d\S+)\.tar\.xz
+opts="searchmode=plain, \
+pgpsigurlmangle=s/$/.asc/, \
+uversionmangle=s/(\d+\.\d+\.\d+).*/$1/" \
+  https://api.github.com/repos/tsujan/FeatherPad/releases https:\/\/github.com\/tsujan\/FeatherPad\/releases\/download\/V@ANY_VERSION@\/FeatherPad-@ANY_VERSION@.tar.xz

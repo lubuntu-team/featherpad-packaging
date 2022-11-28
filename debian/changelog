@@ -1,6 +1,7 @@
 featherpad (1.3.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Manually fix the watch file.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 28 Nov 2022 15:10:23 -0600
 
