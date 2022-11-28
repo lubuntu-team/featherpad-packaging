@@ -8,3 +8,6 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 override_dh_missing:
 	dh_missing --fail-missing
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DENABLE_QT5=OFF
