@@ -37,8 +37,6 @@ Architecture: all
 Multi-Arch: foreign
 Section: localization
 Depends: qttranslations5-l10n, ${misc:Depends}
-Breaks: featherpad (<< 0.11.1)
-Replaces: featherpad (<< 0.11.1)
 Description: Language package for featherpad
  FeatherPad is a lightweight Qt5 plain-text editor for Linux. It is independent
  of any desktop environment and comes with all features one would expect in a
