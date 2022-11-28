@@ -5,6 +5,7 @@ featherpad (1.3.3-0ubuntu1) UNRELEASED; urgency=medium
   * Change the maintainer.
   * Remove obsolete Breaks/Replaces.
   * Build using Qt 6.
+  * Fix the Lintian override syntax.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 28 Nov 2022 15:10:23 -0600
 
