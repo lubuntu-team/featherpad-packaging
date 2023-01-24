@@ -15,7 +15,7 @@ Build-Depends: cmake,
                qt6-base-dev,
                qt6-tools-dev,
                qt6-tools-dev-tools
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/lxqt-team/featherpad
 Vcs-Git: https://salsa.debian.org/lxqt-team/featherpad.git
 Homepage: https://github.com/tsujan/featherpad
