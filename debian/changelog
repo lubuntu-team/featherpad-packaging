@@ -2,6 +2,7 @@ featherpad (1.3.5-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Bump Standards-version to 4.6.2, no changes needed.
+  * Minor copyright updates.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:53:51 -0600
 
