@@ -1,4 +1,4 @@
-featherpad (1.3.5-0ubuntu1) UNRELEASED; urgency=medium
+featherpad (1.3.5-0ubuntu1) lunar; urgency=medium
 
   * New upstream release.
   * Bump Standards-version to 4.6.2, no changes needed.
@@ -6,7 +6,7 @@ featherpad (1.3.5-0ubuntu1) UNRELEASED; urgency=medium
   * Use Qt 6 theming defined by qt6ct as the default, until the Qt 6 theming
     story is improved in LXQt.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:53:51 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 16:03:06 -0600
 
 featherpad (1.3.3-0ubuntu1) lunar; urgency=medium
 
