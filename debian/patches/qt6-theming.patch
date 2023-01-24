@@ -1,0 +1,20 @@
+Description: Manual override to use theming specified by qt6ct
+ This is a temporary patch to make Featherpad look (at least somewhat)
+ presentable until the Qt 6 theming story in LXQt improves.
+Author: Simon Quigley <tsimonq2@lubuntu.me>
+Origin: vendor
+Forwarded: not-needed
+Last-Update: 2023-01-24
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/featherpad/data/featherpad.desktop
++++ b/featherpad/data/featherpad.desktop
+@@ -50,7 +50,7 @@ Name[it]=Nuova finestra
+ Name[hu]=Új ablak
+ Name[pt]=Nova Janela
+ Name[sv]=Nytt Fönster
+-Exec=featherpad --win
++Exec=env QT_QPA_PLATFORMTHEME=qt6ct featherpad --win
+ 
+ [Desktop Action standalone-window]
+ Name=Standalone Window
