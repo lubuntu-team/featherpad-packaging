@@ -8,13 +8,14 @@ Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libhunspell-dev,
-               libqt6svg6-dev,
+               libqt5svg5-dev,
+               libqt5x11extras5-dev,
                libx11-dev,
                libxext-dev,
                pkgconf,
-               qt6-base-dev,
-               qt6-tools-dev,
-               qt6-tools-dev-tools
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/lxqt-team/featherpad
 Vcs-Git: https://salsa.debian.org/lxqt-team/featherpad.git
@@ -24,10 +25,10 @@ Package: featherpad
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: featherpad-l10n, libglib2.0-bin
-Description: Lightweight Qt 6 plain-text editor
- FeatherPad is a lightweight Qt 6 plain-text editor for Linux. It is
- independent of any desktop environment and comes with all features one would
- expect in a modern editor.
+Description: Lightweight Qt5 plain-text editor
+ FeatherPad is a lightweight Qt5 plain-text editor for Linux. It is independent
+ of any desktop environment and comes with all features one would expect in a
+ modern editor.
  .
  This package contains the application files.
 
@@ -35,10 +36,10 @@ Package: featherpad-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: qt6-translations-l10n, ${misc:Depends}
+Depends: qttranslations5-l10n, ${misc:Depends}
 Description: Language package for featherpad
- FeatherPad is a lightweight Qt 6 plain-text editor for Linux. It is
- independent of any desktop environment and comes with all features one would
- expect in a modern editor.
+ FeatherPad is a lightweight Qt5 plain-text editor for Linux. It is independent
+ of any desktop environment and comes with all features one would expect in a
+ modern editor.
  .
  This package contains the l10n files needed by the featherpad.
