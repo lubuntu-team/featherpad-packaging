@@ -1,6 +1,7 @@
 featherpad (1.4.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update Vcs-*.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 Dec 2023 20:58:19 -0600
 
