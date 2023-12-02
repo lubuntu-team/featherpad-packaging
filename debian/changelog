@@ -1,3 +1,9 @@
+featherpad (1.4.1-0ubuntu1~ppa23.10.1) mantic; urgency=medium
+
+  * Backport to Mantic.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 Dec 2023 21:05:33 -0600
+
 featherpad (1.4.1-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
