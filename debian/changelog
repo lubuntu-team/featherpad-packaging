@@ -1,3 +1,9 @@
+featherpad (1.6.2-0ubuntu1) questing; urgency=medium
+
+  * New upstream release (1.6.2)
+
+ -- Rik Mills <rikmills@kde.org>  Thu, 22 May 2025 16:05:14 +0100
+
 featherpad (1.6.0-0ubuntu2) plucky; urgency=medium
 
   * Remove unnecessary files from the l10n package.
