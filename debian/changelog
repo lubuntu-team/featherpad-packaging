@@ -1,3 +1,10 @@
+featherpad (1.6.3-0ubuntu1) resolute; urgency=medium
+
+  * New upstream release. (LP: #2146470)
+  * Update watch file to version 5
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 26 Mar 2026 13:43:11 -0400
+
 featherpad (1.6.2-0ubuntu1) questing; urgency=medium
 
   * New upstream release (1.6.2)

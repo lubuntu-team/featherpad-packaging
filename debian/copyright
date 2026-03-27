@@ -14,7 +14,8 @@ License: GPL-2.0+
 Files: debian/*
 Copyright: 2017-2019, Alf Gaida <agaida@siduction.org>
            2021, S. 7 <severusseptimius7@gmail.com>
-           2022-2024, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2025, ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+           2022-2026, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 License: GPL-3.0+
 
 Files: featherpad/data/featherpad.metainfo.xml
